@@ -1,0 +1,22 @@
+-> Subir archivo csv para reservas
+-> Ver el archivo que se descarga desde Opera
+-> Crear Tabla Reservas en donde irán alojados los datos de Opera <- pendiente y modificar proceso de carga
+-> Mostrar estos datos en el crud principal
+-> Primer módulo de Creación de Voucher
+-> CRUD de los voucher creados
+-> Módulo Operación
+
+-------------------------------------------
+Informe de confirmación para reservas
+Informe de servicios del día
+Voucher de servicio.
+
+-------------------------------------------
+Tipos de Clientes / Descuento / Subnivel
+
+Directo Ruta Cruz
+Hotel Santa Cruz
+Otros Hoteles
+Pagina Web Ruta Cruz
+Agencias
+Empresas
