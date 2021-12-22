@@ -36,7 +36,7 @@ try {
 </head>
 <body>
 <input type="hidden" name="rut_cli" id="rut_cli" value="">
-    <div class="container-xl">
+    <div class="container-xxl">
         <div class="table-responsive">
             <div class="table-wrapper">
                 <div class="table-title">
@@ -49,7 +49,7 @@ try {
                         </div>
                         <div class="col-sm-6">
                             <!-- <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Añadir nuevo colegio</span></a>-->
-                            <a href="show_all.php" class="btn btn-danger"><i class="material-icons">analytics</i> <span>Todos</span></a>
+                            <!-- <a href="show_all.php" class="btn btn-danger"><i class="material-icons">analytics</i> <span>Todos</span></a> -->
                             <a href="index.php" class="btn btn-danger"><i class="material-icons">analytics</i> <span>Volver</span></a>
                             <a href="subir.php" class="btn btn-danger"><i class="material-icons">analytics</i> <span>Importar</span></a>
                         </div>
@@ -70,30 +70,34 @@ try {
                             <th>Status</th>
                             <th>Package</th>
                             <th>Created By</th>
+                            <th>Opciones</th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php while($resultado = $view_rsv->fetch(PDO::FETCH_ASSOC)){ ?>
                         <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
                             <tr>
-                                <td></td>
-                            
-                                <td><?php echo $resultado["rut_ingre"]?></td>
-                                <td><?php echo $resultado["fecha"]?></td>
-                                <td><?php echo $resultado["hora"]?></td>
-                                <td><input type="text" class="form-control" name="n_entrada" id="n_entrada" value="<?php echo $resultado["n_entrada"]?>" required></td>
-                                <td style="display:none;"><input type="hidden" name="id_" id="id_" value="<?php echo $resultado["id_log"]?>"><?php echo $resultado["id_log"]?></td>
-                                <td>
-                                    <input type="hidden" name="insertar3">
-                                    <input type="submit" value="&#xE254;" class="material-icons">
-                                </td>
+                                
+                                <td><?php echo $resultado["id_res"]?></td>
+                                <td><?php echo $resultado["nombre"]?></td>
+                                <td><?php echo $resultado["checkin"]?></td>
+                                <td><?php echo $resultado["checkout"]?></td>
+                                <td><?php echo $resultado["tip_serv"]?></td>
+                                <td><?php echo $resultado["pasaj"]?></td>
+                                <td><?php echo $resultado["correo"]?></td>
+                                <td><?php echo $resultado["telef"]?></td>
+                                <td><?php echo $resultado["rate_code"]?></td>
+                                <td><?php echo $resultado["statu"]?></td>
+                                <td><?php echo $resultado["package"]?></td>
+                                <td><?php echo $resultado["cre_by"]?></td>
+                                <td><a href="ingresar.php"><span>Voucher</span></a></td>
                             </tr>
                         </form>
                         <?php } ?>
                     </tbody>
                 </table>
                 <div class="clearfix">
-                    <div class="hint-text">Mostrando <b>5</b> de <b><?php //echo $res_pg["total_reg"]?></b> entradas</div>
+                    <div class="hint-text">Mostrando <b>N</b> de <b><?php //echo $res_pg["total_reg"]?></b> entradas</div>
                     <ul class="pagination">
                         <li class="page-item disabled"><a href="#">Anterior</a></li>
                         <li class="page-item active"><a href="#" class="page-link">1</a></li>

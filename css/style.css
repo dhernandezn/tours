@@ -7,6 +7,15 @@
     margin-left: 25%;
     margin-right: 25%;
 }
+.frm-ingreso-val{
+    margin-top: 2%;
+    border-style: groove;
+    border-radius: 0.7%;
+    border-color: #005b64;
+    padding: 3%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
 #btn-frm1{
     background-color: #438bd3;
 }

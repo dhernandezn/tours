@@ -73,7 +73,26 @@ try {
   </script>
 </head>
 <body>
-    <div class="frm">
+    <input type="hidden" name="rut_cli" id="rut_cli" value="">
+    <div class="container-xxl">
+        <div class="table-responsive">
+            <div class="table-wrapper">
+                <div class="table-title">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h2>Administrar <b>Reservas</b></h2>
+                        <?php 
+                        // echo $resultado[""];
+                        ?>
+                        </div>
+                        <div class="col-sm-6">
+                            <!-- <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Añadir nuevo colegio</span></a>-->
+                            <a href="operacion.php" class="btn btn-danger"><i class="material-icons">analytics</i> <span>Operacion</span></a>
+                            <a href="index.php" class="btn btn-danger"><i class="material-icons">analytics</i> <span>Volver</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="frm">
         <h2>Ingresar <b>Reserva</b></h2>
         <hr>
         <form action="<?php echo $_SERVER['PHP_SELF'];?>" class="form-horizontal" method="post" enctype="multipart/form-data" name="f" autocomplete="off">
@@ -132,5 +151,8 @@ try {
         </form>
         <strong id="mensajes"  value="<?php echo $mensaje2; ?>"><?php echo $mensaje2; ?></strong>
     </div> 
+                </div>
+                </div>
+                </div>
 </body>
 </html>

@@ -66,7 +66,7 @@ if (isset($_POST['insertar'])) {
 <body>
 <strong id="mensajes" value=""><?php echo $mensaje3; ?></strong>
 <input type="hidden" name="rut_cli" id="rut_cli" value="">
-    <div class="container-xl">
+    <div class="container-xxl">
         <div class="table-responsive">
             <div class="table-wrapper">
                 <div class="table-title">
@@ -77,9 +77,9 @@ if (isset($_POST['insertar'])) {
                         </div>
                         <div class="col-sm-6">
                             <!-- <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Añadir nuevo colegio</span></a>-->
-                            <a href="show_all.php" class="btn btn-danger"><i class="material-icons">analytics</i> <span>Todos</span></a>
+                            <!-- <a href="show_all.php" class="btn btn-danger"><i class="material-icons">analytics</i> <span>Todos</span></a> -->
                             <a href="index.php" class="btn btn-danger"><i class="material-icons">analytics</i> <span>Volver</span></a>
-                            <a href="subir.php" class="btn btn-danger"><i class="material-icons">analytics</i> <span>Importar</span></a>
+                            <!-- <a href="subir.php" class="btn btn-danger"><i class="material-icons">analytics</i> <span>Importar</span></a> -->
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,5 @@
+Crear tabla intermedia tour_vehiculo en donde se debe ir ingresando los valores de acuerdo a la combinación
+
 -> Subir archivo csv para reservas
 -> Ver el archivo que se descarga desde Opera
 -> Crear Tabla Reservas en donde irán alojados los datos de Opera <- pendiente y modificar proceso de carga
@@ -20,3 +22,7 @@ Otros Hoteles
 Pagina Web Ruta Cruz
 Agencias
 Empresas
+
+//llenar la tabla vehículos y tour OK
+//crear un formulario para insertar los valores de los tour según tipo de vehiculo OK
+//Debe tener la disposición de selecionar varios tour.

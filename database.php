@@ -1,7 +1,7 @@
 <?php  
-	define('DNSSQLSV','sqlsrv:Database=enjoy;Server=172.27.10.32');
-	define('USERNAMESQLSV','sys_ctrlclient');
-	define('PASSWORDSQLSV','Schelp..,#1234');
+	// define('DNSSQLSV','sqlsrv:Database=enjoy;Server=172.27.10.32');
+	// define('USERNAMESQLSV','sys_ctrlclient');
+	// define('PASSWORDSQLSV','Schelp..,#1234');
 
     define('DNSMYSQL','mysql:dbname=tours;host=127.0.0.1');
 	define('USERNAMEMYSQL','dahn');
