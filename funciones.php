@@ -11,10 +11,12 @@ class Consultas
         $chout = $_POST["checkout"];
         $dia_res = $_POST["dia_res"];
         $tour = $_POST["tur"];
-        
         $npax = $_POST["npax"];
         $tel = $_POST["tel"];
         $correo = $_POST["correo"];
+
+
+
         echo $nombre;
         echo "<br>";
         echo $reserv;
